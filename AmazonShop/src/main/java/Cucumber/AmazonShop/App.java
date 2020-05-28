@@ -1,4 +1,4 @@
-package Cucumber.PropineDateParser;
+package Cucumber.AmazonShop;
 
 /**
  * Hello world!
