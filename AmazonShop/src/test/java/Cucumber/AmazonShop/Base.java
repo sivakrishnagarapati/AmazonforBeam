@@ -16,7 +16,7 @@ public class Base {
 	public static WebDriver getDriver() throws IOException
 	{
 		prop=new Properties();
-		FileInputStream fis= new FileInputStream("C:\\Workspace\\AmazonShop\\src\\test\\java\\Cucumber\\AmazonShop\\global.properties");
+		FileInputStream fis= new FileInputStream("D:\\Beam Interview Assignment\\BeamAssignment\\AmazonforBeam\\AmazonShop\\src\\test\\java\\Cucumber\\AmazonShop\\global.properties");
 		prop.load(fis);
 		System.setProperty("webdriver.chrome.driver",
 				"Driver\\chromedriver.exe");
